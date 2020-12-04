@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Citra Amelia 118140002 RA</title>
+    
+</head>
+
+<body>
+
+    
+        <h1>Pemesanan Baju</h1>
+        
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="">Masukkan Nama :</label>
+                <input type="text" name="nama" class="form-control">
+            </div>
+            <div class ="form-group">
+                <label fot= "">Masukkan Password :</label>
+                <input type="password" name="pw">
+            </div>
+            <div class="form-group">
+                <label for="">Jenis Kelamin :</label>
+                <select class="form-control" name="Jenis_Kelamin">
+                    <option>Pilih Jenis Kelamin</option>
+                    <option value="laki-laki"> laki-laki </option>
+                    <option value="perempuan"> perempuan </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Pembayaran Lunas atau Cicil :</label>
+                <input type="radio" name="pembayaran" value="lunas">
+                lunas<br>
+                <input type="radio" name="pembayaran" value="cicil">
+                cicil<br>
+            </div>
+
+            <div class="form-group">
+                <label for="">Pilihan Baju :</label><br>
+                <input type="Checkbox" name="baju" value="panjang">
+                tangan panjang <br>
+                <input type="Checkbox" name="baju" value="pendek">
+                pendek <br>
+            </div>
+            <div class="form-group">
+                <label for="">Alamat Pengiriman:</label>
+                <textarea type = "text" class="form-control" id="" name="alamat"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="">Foto :</label>
+                <input type="file" class="form-control-file" name="foto" id="">
+            </div>
+            <input type="submit" name="submit" value="Simpan" class="btn btn-primary"/>
+        </form>
+
+        <br> <br>
+        <div class="container mt-5 mb-5">
+            <table border="1" class="justify-content-center w-100">
+    
+            <tr class="text-center" style="background-color:purple;color:white;border:1px solid #000">
+                <th>Nama</th>
+                <th>Jenis Kelamin</th>
+                <th>Pembayaran</th>
+                <th>Pilihan Baju</th>
+                <th>Alamat</th>
+            </tr>
+    
+                <tr>
+                    <td> Citra Amelia </td>
+                    <td> Perempuan </td>
+                    <td> Lunas </td>
+                    <td> Tangan Panjang </td>
+                    <td> Palembang</td>
+                </tr>
+            </table>
+    
+        </div>
+
+    </body>
+</html>
