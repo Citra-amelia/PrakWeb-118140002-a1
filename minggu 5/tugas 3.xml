@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<data_diri>
+    <nama>
+        <awal>Citra</awal>
+        <akhir>Amelia</akhir>
+    </nama>
+    <jeniskelamin>Perempuan</jeniskelamin>
+    <hobi>Menonton Film</hobi>
+    <alamat>
+        <kecamatan>Bukit Kecil</kecamatan>
+        <kelurahan>26 ilir </kelurahan>
+        <kota>Palembang</kota>
+    </alamat>
+    <socialMedia>
+        <facebook>Citra Amel</facebook>
+        <instagram>citraamel</instagram>
+    </socialMedia>
+</data_diri>

@@ -1,0 +1,19 @@
+{
+    "data_diri": {
+      "nama": {
+        "awal": "Citra",
+        "akhir": "Amelia"
+      },
+      "jeniskelamin": "Perempuan",
+      "hobi": "Menonton Film",
+      "alamat": {
+        "kecamatan": "Bukit Kecil",
+        "kelurahan": "26 ilir",
+        "kota": "Palembang"
+      },
+      "socialMedia": {
+        "facebook": "Citra Amel",
+        "instagram": "citraamel"
+      }
+    }
+  }
